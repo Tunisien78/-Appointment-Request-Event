@@ -5,5 +5,9 @@ dataLayer.push({
   value: 25000, // Standard parameter: estimated car value associated with the lead
   currency: "EUR", // Standard parameter: currency of the value
   item_name: "Toyota Corolla", // Standard parameter: car model
-  transaction_id: "TX12345" // Standard parameter: unique session or transaction ID
+  transaction_id: "TX12345", // Standard parameter: unique session or transaction ID
+  user_data: {
+    email: "user@example.com", // User's email address
+    phone: "+1234567890" // User's phone number
+  }
 });
