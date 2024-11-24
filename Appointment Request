@@ -1,0 +1,9 @@
+// Trigger: When the user submits a form to request an appointment.
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+  event: "generate_lead", // Recommended GA4 event for lead generation
+  value: 25000, // Standard parameter: estimated car value associated with the lead
+  currency: "EUR", // Standard parameter: currency of the value
+  item_name: "Toyota Corolla", // Standard parameter: car model
+  transaction_id: "TX12345" // Standard parameter: unique session or transaction ID
+});
